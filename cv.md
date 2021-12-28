@@ -31,3 +31,13 @@ I am a beginner JavaScript developer. Took courses on Udemy. I enjoy learning ne
 ## Experience
 
 [paint.js](https://github.com/KristinaT2347/paint.js) - completed during the JS Basics course.
+
+## Education
+
+* University: Belarusian State Economic University, specialty advertising.
+* [Basics of web development. HTML and CSS](https://www.udemy.com/course/html5-oz)
+* [The Complete JavaScript + React Course - From Scratch to Results](https://www.udemy.com/course/javascript_full) (in the process of studying)
+
+## English
+B1
+
