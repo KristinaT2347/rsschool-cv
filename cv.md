@@ -1,5 +1,6 @@
 # Kristina Tabula
 
+
 ## Contacts
 
 * **GitHub:** [KristinaT2347](https://github.com/KristinaT2347)
@@ -13,6 +14,7 @@
 
 I am a beginner JavaScript developer. Took courses on Udemy. I enjoy learning new skills and working in a team.
 
+
 ## Skills
 
 * HTML5
@@ -20,24 +22,9 @@ I am a beginner JavaScript developer. Took courses on Udemy. I enjoy learning ne
 * Git
 * JavaScript (basic)
 
-## Code Example
 
-        function numberToString(num) {
-          return num.toString();
-        }
 
-## Experience
 
-[paint.js](https://github.com/KristinaT2347/paint.js) - completed during the JS Basics course.
-
-## Education
-
-* University: Belarusian State Economic University, specialty advertising.
-* [Basics of web development. HTML and CSS](https://www.udemy.com/course/html5-oz)
-* [The Complete JavaScript + React Course - From Scratch to Results](https://www.udemy.com/course/javascript_full) (in the process of studying)
-
-## English
-B1
 
 
 
