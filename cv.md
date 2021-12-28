@@ -22,10 +22,12 @@ I am a beginner JavaScript developer. Took courses on Udemy. I enjoy learning ne
 * Git
 * JavaScript (basic)
 
+## Code Example
 
+        function numberToString(num) {
+          return num.toString();
+        }
 
+## Experience
 
-
-
-
-
+[paint.js](https://github.com/KristinaT2347/paint.js) - completed during the JS Basics course.
