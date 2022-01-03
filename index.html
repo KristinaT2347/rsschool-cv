@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kristina Tabula CV</title>
+    <link rel="stylesheet" href="styles/output.css" />
+  </head>
+  <body class="bg-gray-100 flex justify-center">
+    <div class="container flex flex-col">
+      <header>
+        <nav class="nav">
+          <ul class="flex items-center justify-between h-24 font-bold text-lg p-4">
+            <li><a class="hover:underline" href="#about-me">About me</a></li>
+            <li><a class="hover:underline" href="#skills">Skills</a></li>
+            <li><a class="hover:underline" href="#code">Code</a></li>
+            <li><a class="hover:underline" href="#projects">Projects</a></li>
+            <li><a class="hover:underline" href="#contact">Contact</a></li>
+            <li><a class="hover:underline" href="#education">Education</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="flex gap-x-8">
+        <div class="bg-slate-300 flex flex-col flex-none gap-y-10 w-80 p-4">
+          <img src="images/cv.jpg" alt="Photo of Kristina Tabula" />
+
+          <section class="contact" id="contact">
+            <h2 class="text-4xl">Contact</h2>
+            <ul class="mt-4 flex flex-col gap-y-2">
+              <li>
+                <b>Phone:</b>
+                <a class="hover:underline" href="tel:+375259102493"
+                  >+375 25 910 24 93</a
+                >
+              </li>
+              <li>
+                <b>Email:</b>
+                <a
+                  class="hover:underline"
+                  href="mailto:kristinatabula@icloud.com"
+                  >kristinatabula@icloud.com</a
+                >
+              </li>
+              <li>
+                <b>LinkedIn:</b>
+                <a
+                  class="hover:underline"
+                  href="https://www.linkedin.com/in/kristinatabula/"
+                  >Kristina Tabula</a
+                >
+              </li>
+              <li>
+                <b>Telegram:</b>
+                <a
+                  class="hover:underline"
+                  href="https://t.me/kristinatabula/"
+                  >Kristina Tabula</a
+                >
+              </li>
+              <li><b>Discord:</b> KristinaT#2734</li>
+              <li><b>Location:</b> Minsk, Belarus</li>
+            </ul>
+          </section>
+          <section id="education">
+            <h2 class="text-4xl">Education</h2>
+            <ul class="mt-4 flex flex-col gap-y-2">
+              <li>
+                2016-2020<br />
+                Belarusian State Economic University,<br />
+                Speciality Advertising
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="flex flex-col gap-y-10 p-4">
+          <section>
+            <h1 class="text-6xl">Kristina Tabula</h1>
+            <p class="mt-8">Front-end developer</p>
+          </section>
+          <section class="about-me" id="about-me">
+            <h2 class="text-4xl">About me</h2>
+            <p class="mt-4">
+              I am a beginner JavaScript developer. Took courses on Udemy. I
+              enjoy learning new skills and working in a team.
+            </p>
+          </section>
+          <section id="skills">
+            <h2 class="text-4xl">Skills</h2>
+            <ul class="mt-4 flex flex-col gap-y-2">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Git</li>
+              <li>JavaScript (basic)</li>
+              <li>English: B1</li>
+            </ul>
+          </section>
+          <section id="code-example">
+            <h2 class="text-4xl">Code Example</h2>
+            <div class="bg-gray-300 p-4 rounded-lg mt-4">
+              <pre>
+        function handleColorClick(event) {
+            const color = event.target.style.backgroundColor;
+            ctx.strokeStyle = color;
+            ctx.fillStyle = color;
+        }
+        
+        function handleRangeChange(event) {
+            const rangeValue = event.target.value;
+            ctx.lineWidth = rangeValue;
+        }              </pre>
+            </div>
+          </section>
+          <section id="projeccts">
+            <h2 class="text-4xl">Projects</h2>
+            <ul class="mt-4 flex flex-col gap-y-2">
+              <li>
+                <a
+                  class="hover:underline"
+                  href="https://github.com/KristinaT2347/paint.js"
+                  >PaintJS</a
+                >
+              </li>
+            </ul>
+          </section>
+        </div>
+      </main>
+
+      <footer class="bg-slate-400 flex items-center justify-between h-24 text-xl p-4">
+        <a class="flex items-center hover:underline" href="https://github.com/KristinaT2347"
+          ><img
+            class="object-contain h-12 fill-black pr-2"
+            src="images/github-logo.svg"
+            alt="Rsschool"
+          />
+          KristinaT2347</a
+        >
+        <div>2022</div>
+        <a class="hover:underline" href="https://rs.school/js/">
+          <img
+            class="object-contain w-24"
+            src="images/rs_school.svg"
+            alt="Rsschool"
+          />
+        </a>
+      </footer>
+    </div>
+  </body>
+</html>
